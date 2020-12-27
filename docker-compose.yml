@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  siktir:
+    image: siktir
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/myApp
+    ports:
+      - 3000:3000

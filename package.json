@@ -4,7 +4,8 @@
   "description": "Siktir",
   "main": "dist/app.js",
   "scripts": {
-    "start": "tsc && node dist/app.js"
+    "start": "tsc && node dist/app.js",
+    "docker": "docker-compose up -d"
   },
   "keywords": [],
   "author": "",
